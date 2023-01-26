@@ -1,0 +1,236 @@
+#banner-flex-container{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    height: 100%;
+}
+#banner-text-container{
+    margin-top: 2rem;
+}
+.pink-span-on-banner{
+    color: #ff0076;
+}
+.banner-numbers-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    margin-bottom: 2rem;
+}
+.followers-and-user-container h6{
+    color: white;
+}
+.banner-buttons-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.img-explore{
+    width: 30px;
+    height: 30px;
+}
+.btn-explore{
+    display: grid;
+    grid-template-columns: repeat(1fr, 2fr);
+}
+.btn-place-bid{
+    border: 2px solid white;
+    height: 4rem;
+    border-radius: 3rem;
+    width: 180px;
+    text-align: center;
+}
+.place-bid{
+    color: white;
+    grid-column: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+.place-bid > p{
+    margin-top: 1rem;
+}
+.place-bid-img{
+    width: 40px;
+    height: 40px;
+    margin-top: 0.8rem;
+}
+#banner-big-img{
+    position: relative;
+    margin-left: 3rem;
+}
+.banner-small-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.banner-small{
+    border-radius: 50%;
+    margin-bottom: 4rem;
+}
+.banner-play-img{
+    position: absolute;
+    top: 0;
+    left: 2;
+}
+.img-play{
+    width: 80px;
+    height: 80px;
+    margin-top: 13rem;
+    margin-left: 2.5rem;
+}
+#artists{
+    display: flex;
+    flex-direction: row;
+    height: 25rem;
+    width: 90%;
+    align-content: center;
+    padding-top: 2rem; 
+}
+#artist-container{
+    background-color: #142442;
+    height: 90%;
+    margin: 0 1rem;
+    text-align: center;
+}
+.first-artist{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    margin-right: 2rem;
+    border-radius: 20px;
+}
+.artist-small-container{
+    margin-top: -1.5rem;
+    margin-bottom: 1rem;
+}
+
+.second-artist{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    margin-right: 2rem;
+    border-radius: 20px;
+}
+.third-artist{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    margin-right: 2rem;
+    border-radius: 20px;
+}
+.fourth-artist{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    margin-right: 2rem;
+    border-radius: 20px;
+}
+.artist-big{
+    width: 100%;
+}
+.name-container{
+    margin-bottom: 2rem;
+}
+div > h2 {
+    color: white;
+    margin-top: 1rem;
+    margin-left: 1rem;
+} 
+.notable-drops{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    background-color: #142442;
+    padding: 1rem 0;
+}
+.product-main-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #071838;
+    margin: 0 3rem;
+    border-radius: 20px;
+    height: 20rem;
+}
+.owner-container{
+    display: flex;
+    flex-direction: row;
+}
+.owner-container img{
+    border-radius: 50%;
+    margin-top: -1.5rem;
+    position: absolute;
+    margin-bottom: 2rem;
+}
+.first-owner{
+    margin-left: 2.5rem;
+    z-index: 4;
+}
+.second-owner{
+    margin-left: 1.5rem;
+    z-index: 3;
+}
+.third-owner{
+    margin-left: 0.5rem;
+}
+.second-section h5{
+    color: white;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 0;
+}
+.second-section > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1rem;
+    border-bottom: 1px solid #9aa4b7;
+    margin-top: 0.5rem;
+}
+.second-section > div > p{
+    color: #9aa4b7;
+}
+.second-section > div > p > span{
+    color: #e0036e;
+}
+.third-section > p{
+    color: #9aa4b7;
+}
+.third-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+.third-section p{
+    margin-top: 1rem;
+}
+.third-section > div{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    border-radius: 20px;
+    color: #9aa4b7;
+    height: 50%;
+    padding-left: 0.2rem;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.third-section > div > a{
+    color: #9aa4b7;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 11px;
+}
+.third-section > div > a:hover{
+    color: #ff0076;
+}
+.third-section > div > img{
+    width: 20px;
+    height: 20px;
+}
+.notable-drops-tittle{
+    background-color: #142442;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
